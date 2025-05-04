@@ -3,20 +3,19 @@ layout: default
 title: Home
 ---
 
-# Benvenuto nel mio blog
+<h1>Benvenuto nel mio blog</h1>
 
 {% for post in site.posts %}
-## [{{ post.title }}]({{ post.url }})
+  <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+  <p>{{ post.excerpt }}</p>
 
-<p>{{ post.excerpt }}</p>
+  {% if post.tags %}
+    <p style="font-size: 0.9em;">
+      {% for tag in post.tags %}
+        <a href="/tag/{{ tag | slugify }}/">#{{ tag }}</a>{% unless forloop.last %}, {% endunless %}
+      {% endfor %}
+    </p>
+  {% endif %}
 
-{% if post.tags %}
-<small>
-  {% for tag in post.tags %}
-    <a href="/tag/{{ tag | slugify }}/">#{{ tag }}</a>{% unless forloop.last %}, {% endunless %}
-  {% endfor %}
-</small>
-{% endif %}
-
-<hr>
+  <hr>
 {% endfor %}

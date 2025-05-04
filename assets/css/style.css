@@ -7,7 +7,16 @@ body {
     margin: 0;
     padding: 2rem;
     line-height: 1.6;
+    text-align: center;
   }  
+  
+  h1, h2, h3, h4, h5, h6,
+  p, a, ul, li {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
   
   a {
     color: black;
@@ -30,7 +39,9 @@ body {
   
   li {
     margin-bottom: 2rem;
-  }
+    border: none;
+    border-bottom: none;
+  }  
   
   .post-tags {
     margin-bottom: 0.5rem;

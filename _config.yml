@@ -12,3 +12,10 @@ plugins:
 header_pages:
   - index.html
   - about.md
+
+  include:
+  - _includes
+
+minima:
+  include_assets: true
+

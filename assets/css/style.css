@@ -4,7 +4,7 @@ body {
     padding: 0;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: top;
     min-height: 100vh;
     font-family: 'Roboto', Helvetica, Arial, sans-serif;
     background: linear-gradient(270deg, #fff176, #fdd835, #fbc02d, #f9a825);

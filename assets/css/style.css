@@ -6,7 +6,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    font-family: 'Roboto', Helvetica, Arial, sans-serif; /* Font di fallback */
+    font-family: 'Roboto', Helvetica, Arial, sans-serif;
     background: linear-gradient(270deg, #fff176, #fdd835, #fbc02d, #f9a825);
     background-size: 800% 800%;
     animation: gradientBG 15s ease infinite;

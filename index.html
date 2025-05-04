@@ -17,7 +17,10 @@ title: Home
       </p>
 
       <p>
-        {{ post.excerpt }} <a href="{{ post.url }}" class="read-more">[read more]</a>
+        {{ post.excerpt }}
+        {% unless post.excerpt == post.content %}
+          <a href="{{ post.url }}" class="read-more">[read more]</a>
+        {% endunless %}
       </p>
     </li>
   {% endfor %}

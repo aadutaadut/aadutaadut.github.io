@@ -10,5 +10,5 @@ plugins:
 
 # Le pagine principali (se hai una pagina "about" o altre)
 header_pages:
-  - index.md
+  - index.html
   - about.md

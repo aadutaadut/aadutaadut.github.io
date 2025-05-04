@@ -22,8 +22,12 @@ tag: tag1
       </p>
 
       <p style="margin-top: 0.5rem; color: black;">
-        {{ post.excerpt }} <a href="{{ post.url }}" style="color: black; text-decoration: none;">[read more]</a>
-      </p>
+  {{ post.excerpt }}
+  {% if post.read_more %}
+    <a href="{{ post.url }}" style="color: black; text-decoration: none;">[read more]</a>
+  {% endif %}
+</p>
+
     </li>
   {% endfor %}
 </ul>

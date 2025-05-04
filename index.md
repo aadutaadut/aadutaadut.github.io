@@ -10,10 +10,13 @@ title: Home
 
 <p>{{ post.excerpt }}</p>
 
-**Tags**:
-{% for tag in post.tags %}
-  <a href="/tag/{{ tag | slugify }}/" style="margin-right:10px;">#{{ tag }}</a>
-{% endfor %}
+{% if post.tags %}
+<small>
+  {% for tag in post.tags %}
+    <a href="/tag/{{ tag | slugify }}/">#{{ tag }}</a>{% unless forloop.last %}, {% endunless %}
+  {% endfor %}
+</small>
+{% endif %}
 
 <hr>
 {% endfor %}

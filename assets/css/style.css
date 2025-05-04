@@ -6,7 +6,7 @@ body {
   color: black;
   margin: 0;
   padding: 2rem;
-  text-align: center;
+  text-align: left;
   font-size: 16px !important; /* Forzato con !important per la dimensione base */
   line-height: 1.6;
 }
@@ -15,16 +15,17 @@ body {
   max-width: 800px;
   margin: 0 auto;
   padding: 0;
-  text-align: center;
+  text-align: left;
+  background-color: white;
 }
 
 main {
-  text-align: center;
+  text-align: left;
 }
 
 h1, h2, h3, h4, h5, h6,
 p, a, ul, li {
-  text-align: center;
+  text-align: left;
   margin-left: auto;
   margin-right: auto;
   line-height: 1.6;

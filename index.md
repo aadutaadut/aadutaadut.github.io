@@ -1,8 +1,10 @@
 ---
 layout: default
-title: "Benvenuto nel mio blog"
+title: Home
 ---
 
-# Benvenuto nel mio blog!
+# Benvenuto nel mio blog
 
-Qui troverai i miei post.
+{% for post in site.posts %}
+  - [{{ post.title }}]({{ post.url }})
+{% endfor %}

@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Il mio primo post"
-date: 2025-05-03
+title: "Titolo del Post"
+date: 2024-05-03
 ---
+Contenuto del post.
 
-Benvenuti nel mio primo post! Questo è un esempio di come funziona Jekyll.

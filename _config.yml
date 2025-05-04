@@ -8,11 +8,6 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
 
-# Le pagine principali (verifica se sono corrette)
-header_pages:
-  - index.md
-  - about.md
-
 # Indica la cartella dei post
 collections:
   posts:

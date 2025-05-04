@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Il mio primo post"
-date: 2024-05-03
-tags: [blog, jekyll, esempio]
-excerpt: "Questo è un post di esempio. Spiega come aggiungere una descrizione e dei tag cliccabili ai post..."
+title: "Titolo del Post"
+date: 2025-04-02
+tags: [tag1, tag2]
+excerpt: "Questa è la descrizione del post 1"
 ---
 
-Contenuto completo del post...
+test 02

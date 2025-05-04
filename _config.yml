@@ -3,14 +3,17 @@ author: "Il mio nome"
 description: "Un blog creato con GitHub Pages e Jekyll"
 theme: minima
 
+# Abilita i feed RSS
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
 
-# Aggiungi il percorso del file CSS personalizzato
-include:
-  - _includes
+# Le pagine principali (verifica se sono corrette)
+header_pages:
+  - index.md
+  - about.md
 
-# Tema minima
-minima:
-  include_assets: true
+# Indica la cartella dei post
+collections:
+  posts:
+    output: true

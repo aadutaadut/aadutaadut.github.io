@@ -1,9 +1,8 @@
 ---
 layout: default
-title: Home
+title: "Benvenuto nel mio blog"
 ---
 
 # Benvenuto nel mio blog!
 
-Questo è un blog creato con **Jekyll** su **GitHub Pages**.
-
+Qui troverai i miei post.
